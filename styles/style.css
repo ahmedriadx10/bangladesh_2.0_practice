@@ -24,6 +24,7 @@ img{
 
 button{
   cursor: pointer;
+  max-width: max-content;
 }
 
 /* specific design */
@@ -103,4 +104,144 @@ border-radius: 8px;
 .hero_info button:hover{
   box-shadow: 0 0 10px #006A50;
 }
+
+.pillar_bangladesh_main_container{
+  margin: 80px auto;
+}
+
+.pillar_bangladesh_main_container h2{
+  font-size: 40px;
+  font-weight: bold;
+  color: #0E0E0E;
+  margin-bottom: 32px;
+}
+
+
+.pillars_cards_container{
+   display: flex;
+justify-content: space-between;
+
+}
+
+
+.pillars_cards_container .pillar_card{
+display: flex;
+flex-direction: column;
+gap: 24px;
+border-radius: 16px;
+background-color:#FFFFFF;
+padding:24px ;
+box-shadow: 0 0 15px #ddd;
+flex-basis: 23%;
+}
+
+
+.my_img{
+ width: 64px;
+ height: 64px; 
+}
+
+.pillar_card h5{
+  font-size: 20px;
+  font-weight: bold;
+  color: #0E0E0E;
+}
+
+
+.pillar_card p{
+  line-height: 24px;
+  color:  #0e0e0e7c;
+}
+
+
+.vision_feature_intro h2{
+  font-weight: bold;
+  font-size: 40px;
+  color:#0E0E0E;  
+  margin-bottom: 24px;
+}
+
+
+
+
+.vision_feature_intro p,.vision_card p{
+line-height: 24px;
+color: #0e0e0e7c;
+}
+
+.visions_cards_main{
+  margin: 32px 0;
+  display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+
+.vision_card{
+
+  display: flex;
+  flex-direction: column;
+  gap:24px ;
+  flex-basis: 31%;
+  border: none;
+  border-radius: 16px;
+  padding: 32px;
+}
+
+.vision_card h6{
+  font-size: 20px;
+  font-weight: bold;
+  color: #0E0E0E;
+}
+
+.vision_card button{
+  border-radius: 8px;
+  color: #FFFFFF;
+  font-weight: 500;
+  padding: 11px 20px;
+  border: none;
+}
+
+
+
+
+
+.blue{
+  background-color: rgb(84, 144, 245,20%);
+}
+.blue button{
+  background-color:rgb(84, 144, 245);
+
+  
+}
+
+.green{
+  background-color: #C6E4D6;
+}
+.green button{
+background-color: #09A15C;
+}
+
+
+.yellow{
+  background-color: #F7EBCF;
+}
+.yellow button{background-color: #FFC239;}
+
+
+
+.quote_area{
+  padding: 48px 24px;
+  border-radius: 16px;
+  box-shadow:0 0 15px #ddd ;
+  position: relative;
+}
+
+
+.quote_area img{
+  position: absolute;
+top: 24px;
+  z-index: 0;
+}
+
 
