@@ -1,0 +1,106 @@
+
+/* reusable design */
+
+*{
+  margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+    font-family: "Fira Sans", sans-serif;
+}
+
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+
+.uni_container{
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+button{
+  cursor: pointer;
+}
+
+/* specific design */
+.nav_menu{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 0;
+}
+
+.nav_menu h2{
+ font-size: 32px;
+ font-weight: bold;
+  color: #0E0E0E;
+
+}
+
+.nav_menu .sign_btn{
+  padding: 12px 30px;
+  border:  1px solid #006A50;
+  color: #006A50;
+font-size: 18px;
+font-weight: 300;
+border-radius: 8px;
+
+}
+
+ .pri{
+  color: red;
+}
+
+
+ .mary{
+  color: #006A50;
+}
+
+
+#hero_area{
+  background-color:#C6E4D6 ;
+  border-radius: 24px;
+  padding: 80px 59px;
+  display: flex;
+  gap: 24px;
+  align-items: center;
+
+}
+
+
+
+.hero_info h6{
+  margin-bottom: 16px;
+  font-size: 24px;
+  font-weight: 600;
+  color: #0e0e0e7c;
+}
+
+.hero_info h1{
+  font-size: 56px;
+  font-weight: bold;
+  margin-bottom: 24px;
+  color: #0E0E0E;
+}
+
+
+.hero_info button{
+  max-width:max-content;
+  padding: 17px 34px;
+  color: #FFFFFF;
+  background-color:#006A50;
+  border-radius: 8px;
+  font-size: 18px;
+  border: none;
+  transition: 0.3s linear;
+
+}
+
+.hero_info button:hover{
+  box-shadow: 0 0 10px #006A50;
+}
+
