@@ -396,3 +396,84 @@ font-weight: 400;
   border: none;
   padding: 13px 26px;
 }
+
+
+.donate_section{
+  margin: 80px auto;
+}
+
+.donate_section .donate_info{
+  padding: 0 88px;
+  text-align: center;
+}
+
+
+.donate_info h2{
+  font-size: 40px;
+  color: #0E0E0E;
+  margin-bottom: 24px;
+}
+
+.donate_info p{
+  color: #0e0e0e7c;
+  line-height: 24px;
+
+}
+
+
+.donate_section .donate_options{
+  display: flex;
+  margin:32px 0 ;
+  gap: 24px;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.donate_options .donate{
+
+  padding: 40px;
+  box-shadow: 0 0 10px #ddd;
+  border-radius: 16px;
+  cursor: pointer;
+
+}
+
+
+.donate_options .donate h6{
+  font-size: 40px;
+  font-weight: bold;
+  color: #0E0E0E;
+}
+
+.donate_options .donate:hover{
+  background-color: #C6E4D6;
+}
+
+.donate_input {
+  padding: 32px 128px;
+}
+.donate_input input{
+  text-align: center;
+  width: 100%;
+  padding: 20px;
+box-shadow: 0 0 10px #ddd;
+border: none;
+text-transform: capitalize;
+}
+
+
+.donate_btn_area{
+  text-align: center;
+}
+
+.donate_btn_area button{
+  background-color: #006A50;
+  border-radius: 8px;
+  font-size: 18px;
+  color: #FFFFFF;
+  padding: 17px 34px;
+  border: none;
+}
+
+/* footer area design */
