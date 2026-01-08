@@ -235,6 +235,9 @@ background-color: #09A15C;
   border-radius: 16px;
   box-shadow:0 0 15px #ddd ;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 
@@ -245,3 +248,151 @@ top: 24px;
 }
 
 
+#opinion_matters {
+  margin: 80px auto;
+}
+
+#opinion_matters h3{
+  font-size: 40px;
+  font-weight: bold;
+  color: #0E0E0E;
+  margin-bottom: 24px;
+}
+
+
+.opinion_table_main{
+  box-shadow: 0 0 15px #ddd;
+  border-radius: 16px;
+  padding: 32px;
+}
+
+
+.ans_question {
+  background-color: #C6E4D6;
+  padding: 24px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.ans_question h6{
+  font-size: 24px;
+  font-weight: 500;
+  color: #0E0E0E;
+}
+
+.question_table{
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.question_table td{
+  padding: 24px;
+  border: 2px solid #ddd;
+  
+}
+
+.question_table td p{
+  font-size: 16px;
+  font-weight: 500;
+  color: #0E0E0E;
+}
+
+.question_table td select {
+  width: 100%;
+  padding: 12px 16px;
+  background-color: #C6E4D6;
+  cursor: pointer;
+  border-radius: 4px;
+font-size: 17px;
+font-weight: 400;
+}
+
+
+
+
+
+/* recent news design */
+
+.recent_new_info h4{
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 24px;
+  color: #0E0E0E;
+}
+
+
+
+.recent_new_info p{
+  color: 24px;
+  margin-bottom: 32px;
+}
+
+.recent_news_cards{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.recent_card{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+  box-shadow: 0 0 15px #ddd;
+  border-radius: 24px;
+  padding: 24px;
+}
+
+.recent_card:nth-child(2){
+  flex-direction: row-reverse;
+}
+
+.recent_card .satelite_info{
+  display: flex;
+  flex-direction: column;
+  gap: 12px; ;
+}
+
+.recent_card .satelite_img{
+  border-radius: 24px;
+}
+
+
+.recent_card .satelite_info h5{
+  font-size: 32px;
+  font-weight: bold;
+  color: #0E0E0E;
+}
+
+.recent_card .satelite_info img{
+  width: 134px;
+  height: 40px;
+}
+
+.recent_card .satelite_info p{
+  color: #0e0e0e7c;
+  line-height: 24px;
+}
+
+
+.recent_card .dates{
+  display: flex;
+  gap: 12px;
+}
+
+.recent_card .dates span{
+  color: #0e0e0e7c;
+}
+
+
+.recent_card button{
+  max-width: max-content;
+  background-color:#006A50 ;
+  border-radius: 8px;
+  color: #FFFFFF;
+  font-size: 18px;
+  font-weight: 500;
+  border: none;
+  padding: 13px 26px;
+}
